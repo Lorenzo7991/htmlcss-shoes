@@ -12,3 +12,9 @@ Osservate bene le immagini originali in allegato per evitare eventuali grane.
 ### _**`Bonus:`**_
 
 Nascondiamo la barra di navigazione all'utente e costringiamolo a navigare solo utilizzando i numerini in alto.
+
+---
+
+![shoes shop template](assets/img-rdm/screen.png "shoes shop template")
+
+---

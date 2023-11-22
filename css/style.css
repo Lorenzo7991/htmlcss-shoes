@@ -5,7 +5,75 @@
     box-sizing: border-box;
 }
 
-/* Test css/html response */
+/* Generics */
 body{
-    background-color: blue;
+    font-family: 'Rubik Mono One', sans-serif;
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* html{
+    overflow-y: hidden;
+} */
+
+/* Utils */
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px dotted black;
+}
+
+/* Overlay */
+.cover-page::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.499);
+}
+
+.bg-adidas{
+    background-image: url(../assets/img/adidas_background.jpg);
+}
+
+.bg-jordan{
+    background-image: url(../assets/img/air_jordan_background.jpg);
+}
+
+.bg-vans{
+    background-image: url(../assets/img/vans_of_the_wall_background.jpg);
+}
+
+/* Main */
+
+.cover-page{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.page-content{
+    max-width: 380px;
+    height: auto;
+    position:   absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+
